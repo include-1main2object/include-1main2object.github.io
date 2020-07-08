@@ -1,0 +1,4 @@
+环境：
+mysql、tomcat服务器、win10  （sublime text3）
+1、还原数据库，还原文件tylll.sql在sources文件夹中
+2、所有html和jsp文件均在html文件夹，运行前修改jdbc.jsp中数据库名称和密码
