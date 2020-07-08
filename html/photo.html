@@ -1,0 +1,183 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<title>Congratulations!!:)</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-12 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    color: #ffffff;
+    padding: 3px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: right;
+    font-size: 12px;
+    padding: 5px;
+}
+.Photo{
+    width: 1000px; 
+    height: 800px;
+    overflow: hidden; 
+    margin: 50px auto; 
+    position: relative;
+}
+img{ 
+    z-index: 1;
+    width: 26%;
+    height: auto;
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    background: #aaccff;    <!--红黄蓝-->
+    border: 0.5px solid #CCCCCC;
+    /* 动画的时间 */
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+ }
+img:hover{
+    z-index: 2;
+    transform: scale(1.5);
+    -moz-transform: scale(1.5) ;
+    -webkit-transform: scale(1.5) ;
+    box-shadow: -10px 10px 20px #000000;
+    -moz-box-shadow: -10px 10px 20px #000000;
+    -webkit-box-shadow: -10px 10px 20px #000000;
+}
+.Apple{
+    left: 570px;
+    top: 60px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.Pear{
+    left: 340px;
+    top: 75px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.Grape{
+    left: 440px;
+    top: 300px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+.Lemon{
+    left: 70px;
+    top: 50px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.Peach{
+    left: 200px;
+    top: 450px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.Mango{
+    left: 120px;
+    top: 270px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+</style>
+</head>
+
+<body background="assets\img\backgrounds\1.jpg" style=" background-repeat:no-repeat;background-size:100% 100%; background-attachment: fixed;" >
+
+<div class="header">
+<h2 style="font-size:17pt;font-style:itelic;font-weight:bold;text-align:left">We've been together for</h2>
+<h1 style="font-size:30pt;font-style:itelic;font-weight:bold;text-align:center">1097 days!</h1>
+
+</div>
+
+
+<div class="Photo" align=center>
+<img src="assets\img\1.jpg" class="Apple">
+<img src="assets\img\2.jpg" class="Pear">
+<img src="assets\img\3.jpg" class="Grape">
+<img src="assets\img\4.jpg" class="Lemon">
+<img src="assets\img\5.jpg" class="Peach">
+<img src="assets\img\6.jpg" class="Mango">
+</div>
+
+
+
+
+</body>
+</html>
